@@ -1,0 +1,10 @@
+2026-05-11 18:23:25.446965 -> Cliente Juan registrado
+2026-05-11 18:23:25.447483 -> El nombre no puede estar vacío
+2026-05-11 18:23:25.447908 -> Sala registrada
+2026-05-11 18:23:25.448272 -> Equipo registrado
+2026-05-11 18:23:25.448721 -> Asesoría registrada
+2026-05-11 18:23:25.449585 -> Precio inválido
+2026-05-11 18:23:25.450043 -> Reserva exitosa
+2026-05-11 18:23:25.450438 -> Duración inválida
+2026-05-11 18:23:25.450875 -> Reserva asesoría exitosa
+2026-05-11 18:23:25.451267 -> Correo inválido
