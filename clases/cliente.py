@@ -1,5 +1,8 @@
+
 from clases.entidad import Entidad
 from clases.excepciones import ClienteError
+
+#Clase que gestiona la información de los clientes del sistema
 
 class Cliente(Entidad):
 
@@ -19,14 +22,14 @@ class Cliente(Entidad):
     def set_correo(self, correo):
 
         if "@" not in correo:
-            raise ClienteError("Correo inválido")
+            raise ClienteError("Correo  electronico inválido")
 
         self.__correo = correo
 
     def set_telefono(self, telefono):
 
         if not telefono.isdigit():
-            raise ClienteError("El teléfono debe tener solo números")
+            raise ClienteError("Teléfono inválido:Solo debe contener números")
 
         self.__telefono = telefono
 
@@ -36,4 +39,4 @@ class Cliente(Entidad):
 
     def mostrar_informacion(self):
 
-        return f"Cliente: {self.__nombre}"
+      return f"Cliente: {self.__nombre},{self.__correo},{self.__telefono}"
